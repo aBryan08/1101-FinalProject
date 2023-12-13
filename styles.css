@@ -54,7 +54,7 @@ footer{
     font-size: 20px;
     background-color: black;
     bottom:0;
-    position: fixed;
+    position: sticky;
 }
 body{
     background-color: black;
@@ -62,12 +62,6 @@ body{
 }
 .content{
     text-align: center;
-}
-.question{
-    color: white;
-}
-.answer{
-    color: red;
 }
 .content p{
     font-size: 20px;
@@ -87,11 +81,6 @@ body{
     margin-right: auto;
     text-align: center;
 }
-.faqs{
-    text-align: center;
-    line-height: 2;
-}
-
 .content form{
     margin: auto;
     margin-top: 15px;
@@ -100,3 +89,6 @@ body{
 .heading1{
     text-align: center;
 }
+.help{
+    text-align: center;
+}    
